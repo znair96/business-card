@@ -1,0 +1,148 @@
+/* mobile design */
+body {
+  background: url("/images/Group\ 3@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position-y: 10%; */
+  overflow: hidden;
+  min-width: 220px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.personal-image {
+  background: url("./images/Layer\ 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 122px;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+}
+.portfolio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 70px;
+  margin-top: 48px;
+}
+.portfolio:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 1px;
+  background: black;
+  left: 2rem;
+  top: 3.4rem;
+  position: absolute;
+}
+.my-intro,
+.contact-info {
+  margin-left: 2.2rem;
+}
+.my-intro .hello-intro {
+  text-align: left;
+  /* font: normal normal medium 18px/23px Helvetica; */
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  color: #1e9d9d;
+  opacity: 1;
+  margin-top: 3.6rem;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+.my-intro h1 {
+  font-family: "Asul";
+  font-weight: bolder;
+  font-size: 42px;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.my-intro h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.my-intro .role {
+  width: 224px;
+  height: 40px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000cc;
+  margin-top: 10px;
+  word-spacing: 1.5px;
+  line-height: 1.2;
+  margin-bottom: 4.2rem;
+}
+.contact-info {
+  position: relative;
+  color: #000000cc;
+}
+.contact {
+  margin-left: 38px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 1px;
+  background: black;
+  left: 0;
+  top: 0.4rem;
+  position: absolute;
+}
+
+.email h5,
+.phone h5 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.email p,
+.phone p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.phone {
+  position: relative;
+  top: -10px;
+}
+.social-info {
+  position: absolute;
+  bottom: 6px;
+  left: 3rem;
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+.social-info h5 {
+  margin-top: 0;
+  font-size: 19px;
+}
+.social-info h5:after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 1px;
+  background: white;
+  left: 6.6rem;
+  top: 1rem;
+  position: absolute;
+}
+.social-links {
+  display: flex;
+  align-items: baseline;
+  margin-left: 64px;
+}
+.social-links img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.social-links img:nth-child(2) {
+  width: 38px;
+}
